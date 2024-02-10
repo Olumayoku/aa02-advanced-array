@@ -1,8 +1,8 @@
 /*
 Write a function `sumForEach(arr)` that accepts an array as an arg.
 The function should return the total sum of all values in the array.
-
 Solve this using Array's `forEach()` method.
+// step 1:
 
 Examples:
 
@@ -12,7 +12,12 @@ console.log(sumForEach([])); // 0
 */
 
 let sumForEach = function(arr) {
-  // Your code here 
+  let sum = 0;
+//  let num = 0;
+arr.forEach(function(num){
+sum += num
+})
+return sum; 
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
